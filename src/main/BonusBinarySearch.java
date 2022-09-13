@@ -4,8 +4,8 @@ public class BonusBinarySearch {
 
     /**
      * A binary search implementation for integer arrays.
-     *
-     * Info about binary search: https://www.geeksforgeeks.org/binary-search/
+     * <p>
+     * Info about binary search: <a href="https://www.geeksforgeeks.org/binary-search/">...</a>
      *
      * @param sortedNumbers - must be sorted from least to greatest
      * @param n - number to search for
