@@ -15,4 +15,12 @@ public class BonusBinarySearchTest {
     public void returnsIfInTheStartOfArray() {
         assertEquals(1, BonusBinarySearch.binarySearch(sortedNumbers, 1));
     }
+    @Test
+    public void returnsIfAtEndOfArray() {
+        assertEquals(30, BonusBinarySearch.binarySearch(sortedNumbers, 30));
+    }
+    @Test
+    public void returnNegativeOneIfNotInArray() {
+        assertEquals(-1, BonusBinarySearch.binarySearch(sortedNumbers, 300));
+    }
 }
