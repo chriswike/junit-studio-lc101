@@ -18,6 +18,10 @@ public class BonusBinarySearchTest {
         assertEquals(30, BonusBinarySearch.binarySearch(sortedNumbers, 30));
     }
     @Test
+    public void returnsIfInMiddleOfArray() {
+        assertEquals(8, BonusBinarySearch.binarySearch(sortedNumbers, 8));
+    }
+    @Test
     public void returnNegativeOneIfNotInArray() {
         assertEquals(-1, BonusBinarySearch.binarySearch(sortedNumbers, 300));
     }
