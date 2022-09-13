@@ -7,8 +7,12 @@ import static org.junit.Assert.*;
 import main.BonusBinarySearch;
 
 public class BonusBinarySearchTest {
-    public BonusBinarySearch test_Class =  new BonusBinarySearch();
+    public BonusBinarySearch test_Class;
     public int[] sortedNumbers = {1, 2, 4, 5, 8, 9, 15, 25, 30};
+
+    public BonusBinarySearchTest() {
+        test_Class = new BonusBinarySearch();
+    }
 
 
     @Test
